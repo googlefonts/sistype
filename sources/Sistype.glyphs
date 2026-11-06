@@ -14,6 +14,11 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = trademark;
 value = "Sistype is a trademark of Florencia Sisti.";
 },
@@ -66338,5 +66343,5 @@ regenerateGroups = 1;
 };
 };
 versionMajor = 2;
-versionMinor = 3;
+versionMinor = 4;
 }
