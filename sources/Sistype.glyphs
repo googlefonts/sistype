@@ -44191,6 +44191,36 @@ width = 270;
 unicode = 000D;
 },
 {
+glyphname = lineseparator;
+lastChange = "2026-11-06 14:36:14 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 600;
+},
+{
+layerId = "AC3668F7-A671-4D63-AEC0-E6AD3D220AFF";
+width = 600;
+}
+);
+unicode = 2028;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2026-11-06 14:36:14 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 600;
+},
+{
+layerId = "AC3668F7-A671-4D63-AEC0-E6AD3D220AFF";
+width = 600;
+}
+);
+unicode = 2029;
+},
+{
 glyphname = period;
 lastChange = "2026-10-30 10:01:12 +0000";
 layers = (

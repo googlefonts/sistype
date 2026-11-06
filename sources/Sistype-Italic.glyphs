@@ -13521,6 +13521,28 @@ width = 240;
 unicode = 000D;
 },
 {
+glyphname = lineseparator;
+lastChange = "2026-11-06 14:36:10 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 600;
+}
+);
+unicode = 2028;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2026-11-06 14:36:10 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 600;
+}
+);
+unicode = 2029;
+},
+{
 glyphname = period;
 lastChange = "2026-09-10 19:53:49 +0000";
 layers = (
