@@ -94,6 +94,40 @@ alignmentZones = (
 );
 ascender = 720;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = typoDescender;
+value = -300;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 965;
+},
+{
+name = winDescent;
+value = 270;
+},
+{
+name = hheaAscender;
+value = 1000;
+},
+{
+name = hheaDescender;
+value = -300;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -214;
 guideLines = (
 {
@@ -149,6 +183,40 @@ alignmentZones = (
 );
 ascender = 720;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = typoDescender;
+value = -300;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 965;
+},
+{
+name = winDescent;
+value = 270;
+},
+{
+name = hheaAscender;
+value = 1000;
+},
+{
+name = hheaDescender;
+value = -300;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -214;
 horizontalStems = (
 108
