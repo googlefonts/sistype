@@ -1,5 +1,8 @@
 {
 .appVersion = "3532";
+DisplayStrings = (
+"/idotless/imacron/jdotless/lacute/ldot \012\012/commaaccentcomb/Gcommaaccent/Kcommaaccent/Lcommaaccent N/Ncommaaccent/Rcommaaccent/Scommaaccent T/Tcommaaccent/kcommaaccent l/lcommaaccent n/ncommaaccent/rcommaaccent/scommaaccent t/tcommaaccent/gcommaaccent.sc/kcommaaccent.sc/lcommaaccent.sc/ncommaaccent.sc/rcommaaccent.sc/scommaaccent.sc/tcommaaccent.sc/commaturnedabovecomb/kcommaaccent"
+);
 classes = (
 {
 automatic = 1;
@@ -97,7 +100,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 965;
+value = 967;
 },
 {
 name = winDescent;
@@ -1242,7 +1245,7 @@ name = G;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 209, 0}";
+transform = "{1, 0, 0, 1, 259, 0}";
 }
 );
 layerId = UUID0;
@@ -1808,7 +1811,7 @@ name = K;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 184, 0}";
+transform = "{1, 0, 0, 1, 234, 0}";
 }
 );
 layerId = UUID0;
@@ -1916,7 +1919,7 @@ name = L;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 164, 0}";
+transform = "{1, 0, 0, 1, 214, 0}";
 }
 );
 layerId = UUID0;
@@ -2023,13 +2026,13 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:55:16 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{341, 0}";
+position = "{301, 0}";
 },
 {
 name = top;
@@ -2110,6 +2113,7 @@ unicode = 0147;
 },
 {
 glyphname = Ncommaaccent;
+lastChange = "2026-11-06 14:55:16 +0000";
 layers = (
 {
 components = (
@@ -2118,7 +2122,7 @@ name = N;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 261, 0}";
+transform = "{1, 0, 0, 1, 271, 0}";
 }
 );
 layerId = UUID0;
@@ -3033,7 +3037,7 @@ name = R;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 169, 0}";
+transform = "{1, 0, 0, 1, 219, 0}";
 }
 );
 layerId = UUID0;
@@ -3201,7 +3205,7 @@ name = S;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 99, 0}";
+transform = "{1, 0, 0, 1, 149, 0}";
 }
 );
 layerId = UUID0;
@@ -3268,13 +3272,13 @@ unicode = 1E9E;
 },
 {
 glyphname = T;
-lastChange = "2026-09-09 01:17:24 +0000";
+lastChange = "2026-11-06 14:55:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{186, 0}";
+position = "{213, 0}";
 },
 {
 name = center;
@@ -3362,7 +3366,7 @@ name = T;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 104, 0}";
+transform = "{1, 0, 0, 1, 131, 0}";
 }
 );
 layerId = UUID0;
@@ -3375,6 +3379,7 @@ unicode = 0162;
 },
 {
 glyphname = Tcommaaccent;
+lastChange = "2026-11-06 14:55:23 +0000";
 layers = (
 {
 components = (
@@ -3383,7 +3388,7 @@ name = T;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 106, 0}";
+transform = "{1, 0, 0, 1, 183, 0}";
 }
 );
 layerId = UUID0;
@@ -6030,6 +6035,7 @@ KernOnName = k;
 },
 {
 glyphname = kcommaaccent;
+lastChange = "2026-11-06 14:54:56 +0000";
 layers = (
 {
 components = (
@@ -6038,7 +6044,7 @@ name = k;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 166, 0}";
+transform = "{1, 0, 0, 1, 216, 0}";
 }
 );
 layerId = UUID0;
@@ -6051,13 +6057,13 @@ unicode = 0137;
 },
 {
 glyphname = l;
-lastChange = "2026-11-06 14:29:08 +0000";
+lastChange = "2026-11-06 14:55:28 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{55, 0}";
+position = "{75, 0}";
 },
 {
 name = center;
@@ -6139,7 +6145,7 @@ unicode = 013E;
 },
 {
 glyphname = lcommaaccent;
-lastChange = "2026-09-09 01:35:21 +0000";
+lastChange = "2026-11-06 14:55:28 +0000";
 layers = (
 {
 components = (
@@ -6148,7 +6154,7 @@ name = l;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, -25, 0}";
+transform = "{1, 0, 0, 1, 45, 0}";
 }
 );
 layerId = UUID0;
@@ -6284,17 +6290,17 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:55:35 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{288, 0}";
+position = "{242, 0}";
 },
 {
 name = top;
-position = "{368, 525}";
+position = "{344, 525}";
 }
 );
 layerId = UUID0;
@@ -6355,7 +6361,7 @@ name = n;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 244, 0}";
+transform = "{1, 0, 0, 1, 220, 0}";
 }
 );
 layerId = UUID0;
@@ -6376,7 +6382,7 @@ name = n;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 191, 0}";
+transform = "{1, 0, 0, 1, 167, 0}";
 }
 );
 layerId = UUID0;
@@ -6389,6 +6395,7 @@ unicode = 0148;
 },
 {
 glyphname = ncommaaccent;
+lastChange = "2026-11-06 14:55:35 +0000";
 layers = (
 {
 components = (
@@ -6397,7 +6404,7 @@ name = n;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 208, 0}";
+transform = "{1, 0, 0, 1, 212, 0}";
 }
 );
 layerId = UUID0;
@@ -6419,7 +6426,7 @@ name = n;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 186, 0}";
+transform = "{1, 0, 0, 1, 162, 0}";
 }
 );
 layerId = UUID0;
@@ -7285,7 +7292,7 @@ name = r;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, -15, 0}";
+transform = "{1, 0, 0, 1, 35, 0}";
 }
 );
 layerId = UUID0;
@@ -7450,7 +7457,7 @@ name = s;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 71, 0}";
+transform = "{1, 0, 0, 1, 121, 0}";
 }
 );
 layerId = UUID0;
@@ -7523,13 +7530,13 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2026-11-06 14:29:14 +0000";
+lastChange = "2026-11-06 14:55:42 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{194, 0}";
+position = "{144, 0}";
 },
 {
 name = center;
@@ -7623,7 +7630,7 @@ name = t;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 112, 0}";
+transform = "{1, 0, 0, 1, 62, 0}";
 }
 );
 layerId = UUID0;
@@ -7636,6 +7643,7 @@ unicode = 0163;
 },
 {
 glyphname = tcommaaccent;
+lastChange = "2026-11-06 14:55:42 +0000";
 layers = (
 {
 components = (
@@ -9552,7 +9560,7 @@ name = g.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 175, 0}";
+transform = "{1, 0, 0, 1, 225, 0}";
 }
 );
 layerId = UUID0;
@@ -10075,7 +10083,7 @@ name = k.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 171, 0}";
+transform = "{1, 0, 0, 1, 221, 0}";
 }
 );
 layerId = UUID0;
@@ -10204,7 +10212,7 @@ name = l.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 79, 0}";
+transform = "{1, 0, 0, 1, 129, 0}";
 }
 );
 layerId = UUID0;
@@ -10410,7 +10418,7 @@ name = n.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 172, 0}";
+transform = "{1, 0, 0, 1, 222, 0}";
 }
 );
 layerId = UUID0;
@@ -11330,7 +11338,7 @@ name = r.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 175, 0}";
+transform = "{1, 0, 0, 1, 225, 0}";
 }
 );
 layerId = UUID0;
@@ -11503,7 +11511,7 @@ name = s.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 72, 0}";
+transform = "{1, 0, 0, 1, 122, 0}";
 }
 );
 layerId = UUID0;
@@ -11625,7 +11633,7 @@ name = t.sc;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 75, 0}";
+transform = "{1, 0, 0, 1, 125, 0}";
 }
 );
 layerId = UUID0;
@@ -17856,17 +17864,17 @@ R = NoKerning;
 {
 color = 9;
 glyphname = commaaccentcomb;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:54:59 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{80, 0}";
+position = "{30, 0}";
 },
 {
 name = bottom;
-position = "{80, -259}";
+position = "{30, -259}";
 }
 );
 layerId = UUID0;
@@ -17874,13 +17882,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"80 -231 OFFCURVE",
-"135 -152 OFFCURVE",
-"143 -98 CURVE SMOOTH",
-"150 -55 LINE",
-"73 -55 LINE",
-"10 -246 LINE",
-"55 -259 LINE"
+"-10 -231 OFFCURVE",
+"45 -152 OFFCURVE",
+"53 -98 CURVE SMOOTH",
+"60 -55 LINE",
+"-17 -55 LINE",
+"-80 -246 LINE",
+"-35 -259 LINE"
 );
 }
 );

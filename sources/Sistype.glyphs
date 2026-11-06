@@ -1,5 +1,8 @@
 {
 .appVersion = "3532";
+DisplayStrings = (
+"U+018F,/space U+FB02,/space U+FB01,/space U+0259\012\012/Schwa/fl/fi/schwa"
+);
 classes = (
 {
 automatic = 1;
@@ -109,7 +112,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 965;
+value = 967;
 },
 {
 name = winDescent;
@@ -198,7 +201,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 965;
+value = 967;
 },
 {
 name = winDescent;
