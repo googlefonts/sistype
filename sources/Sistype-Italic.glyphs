@@ -93,6 +93,7 @@ horizontalStems = (
 78
 );
 id = UUID0;
+italicAngle = 12;
 userData = {
 KernOnIndependentPairs = (
 "h o",
