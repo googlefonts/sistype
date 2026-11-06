@@ -1,8 +1,5 @@
 {
 .appVersion = "3532";
-DisplayStrings = (
-"LL/Lcaron/dcaron hkbl/space ,/space/caroncomb.alt/lcaron t/tcaron"
-);
 classes = (
 {
 automatic = 1;
@@ -44104,15 +44101,55 @@ R = NoKerning;
 },
 {
 glyphname = .notdef;
-lastChange = "2026-10-30 10:01:12 +0000";
+lastChange = "2026-11-06 14:34:13 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 480;
+paths = (
+{
+closed = 1;
+nodes = (
+"644 -214 LINE",
+"644 700 LINE",
+"104 700 LINE",
+"104 -214 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"211 610 LINE",
+"537 610 LINE",
+"537 -124 LINE",
+"211 -124 LINE"
+);
+}
+);
+width = 748;
 },
 {
 layerId = "AC3668F7-A671-4D63-AEC0-E6AD3D220AFF";
-width = 500;
+paths = (
+{
+closed = 1;
+nodes = (
+"639 -214 LINE",
+"639 700 LINE",
+"99 700 LINE",
+"99 -214 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"230 588 LINE",
+"508 588 LINE",
+"508 -102 LINE",
+"230 -102 LINE"
+);
+}
+);
+width = 738;
 },
 {
 associatedMasterId = UUID0;
@@ -44125,6 +44162,8 @@ layerId = "4EB47CA7-ADF3-4FC7-A560-0F2C6FE2F7D1";
 width = 480;
 }
 );
+leftMetricsKey = H;
+rightMetricsKey = H;
 },
 {
 glyphname = CR;

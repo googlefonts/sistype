@@ -1,11 +1,5 @@
 {
 .appVersion = "3532";
-DisplayStrings = (
-"¦",
-"fs/Germandbls ß",
-"HH/space NH/space HE/space no/space nn/space ik/space il/space ho/space NF/space VV\012niffid/space \012TEHHDIV/space TEHEDIV/space \012nio/lslash id/space",
-"/caroncomb.alt/Lcaron d/dcaron hkbl/lcaron ldt/tcaron l"
-);
 classes = (
 {
 automatic = 1;
@@ -13483,13 +13477,37 @@ R = NoKerning;
 },
 {
 glyphname = .notdef;
-lastChange = "2017-07-09 13:17:06 +0000";
+lastChange = "2026-11-06 14:33:29 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 450;
+paths = (
+{
+closed = 1;
+nodes = (
+"492 -215 LINE",
+"676 647 LINE",
+"676 700 LINE",
+"200 700 LINE",
+"16 -162 LINE",
+"16 -215 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"280 610 LINE",
+"569 610 LINE",
+"412 -125 LINE",
+"123 -125 LINE"
+);
 }
 );
+width = 684;
+}
+);
+leftMetricsKey = H;
+rightMetricsKey = H;
 },
 {
 glyphname = CR;
