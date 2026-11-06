@@ -7,7 +7,7 @@ code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atild
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2017 by Florencia Sisti. All rights reserved.";
+copyright = "Copyright 2014 The Sistype Project Authors (https://github.com/googlefonts/sistype)";
 customParameters = (
 {
 name = "Use Typo Metrics";
@@ -66335,6 +66335,7 @@ UUID0 = {
 };
 };
 manufacturer = "Florencia Sisti";
+manufacturerURL = "https://www.fontanasisti.com";
 unitsPerEm = 1000;
 userData = {
 KernOn = {
