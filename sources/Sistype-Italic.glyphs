@@ -13521,16 +13521,6 @@ width = 240;
 unicode = 000D;
 },
 {
-glyphname = NULL;
-lastChange = "2017-07-09 13:17:06 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 20;
-}
-);
-},
-{
 glyphname = period;
 lastChange = "2026-09-10 19:53:49 +0000";
 layers = (
