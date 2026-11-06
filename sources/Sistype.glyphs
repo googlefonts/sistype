@@ -46,7 +46,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature sups;\012feature frac;\012feature ordn;\012feature locl;\012feature case;\012";
+code = "feature locl;\012feature sups;\012feature frac;\012feature ordn;\012feature case;\012";
 name = aalt;
 },
 {
@@ -76,13 +76,13 @@ name = ordn;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;\012sub f i by fi;\012sub f l by fl;\012";
-name = liga;
+code = "sub circumflexcomb by circumflexcomb.case;\012sub acutecomb by acutecomb.case;\012sub gravecomb by gravecomb.case;\012";
+name = case;
 },
 {
 automatic = 1;
-code = "sub circumflexcomb by circumflexcomb.case;\012sub acutecomb by acutecomb.case;\012sub gravecomb by gravecomb.case;\012";
-name = case;
+code = "lookupflag IgnoreMarks;\012sub f i by fi;\012sub f l by fl;\012";
+name = liga;
 }
 );
 fontMaster = (
@@ -59915,7 +59915,7 @@ unicode = 02DB;
 },
 {
 glyphname = acutecomb.case;
-lastChange = "2026-10-30 10:01:12 +0000";
+lastChange = "2026-11-06 14:48:54 +0000";
 layers = (
 {
 anchors = (
@@ -60032,11 +60032,10 @@ nodes = (
 width = 377;
 }
 );
-unicode = F6C9;
 },
 {
 glyphname = gravecomb.case;
-lastChange = "2026-10-30 10:01:12 +0000";
+lastChange = "2026-11-06 14:48:56 +0000";
 layers = (
 {
 anchors = (
@@ -60231,7 +60230,6 @@ nodes = (
 width = 385;
 }
 );
-unicode = F6CE;
 }
 );
 instances = (
