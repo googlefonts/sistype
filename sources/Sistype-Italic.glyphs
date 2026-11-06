@@ -3,7 +3,8 @@
 DisplayStrings = (
 "¦",
 "fs/Germandbls ß",
-"HH/space NH/space HE/space no/space nn/space ik/space il/space ho/space NF/space VV\012niffid/space \012TEHHDIV/space TEHEDIV/space \012nio/lslash id/space"
+"HH/space NH/space HE/space no/space nn/space ik/space il/space ho/space NF/space VV\012niffid/space \012TEHHDIV/space TEHEDIV/space \012nio/lslash id/space",
+"/caroncomb.alt/Lcaron d/dcaron hkbl/lcaron ldt/tcaron l"
 );
 classes = (
 {
@@ -4790,7 +4791,7 @@ unicode = 010B;
 },
 {
 glyphname = d;
-lastChange = "2026-09-10 17:18:27 +0000";
+lastChange = "2026-11-06 14:29:03 +0000";
 layers = (
 {
 anchors = (
@@ -4808,7 +4809,7 @@ position = "{282, 525}";
 },
 {
 name = topright;
-position = "{568, 750}";
+position = "{548, 720}";
 }
 );
 layerId = UUID0;
@@ -4860,6 +4861,7 @@ unicode = 0064;
 },
 {
 glyphname = dcaron;
+lastChange = "2026-11-06 14:31:00 +0000";
 layers = (
 {
 components = (
@@ -4868,7 +4870,7 @@ name = d;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 566, 0}";
+transform = "{1, 0, 0, 1, 546, -30}";
 }
 );
 layerId = UUID0;
@@ -4876,6 +4878,7 @@ width = 564;
 }
 );
 leftKerningGroup = KO_o;
+rightKerningGroup = dcaron;
 unicode = 010F;
 },
 {
@@ -6054,7 +6057,7 @@ unicode = 0137;
 },
 {
 glyphname = l;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:29:08 +0000";
 layers = (
 {
 anchors = (
@@ -6072,7 +6075,7 @@ position = "{125, 750}";
 },
 {
 name = topright;
-position = "{266, 750}";
+position = "{246, 720}";
 }
 );
 layerId = UUID0;
@@ -6120,6 +6123,7 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
+lastChange = "2026-11-06 14:30:47 +0000";
 layers = (
 {
 components = (
@@ -6128,7 +6132,7 @@ name = l;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 264, 0}";
+transform = "{1, 0, 0, 1, 244, -30}";
 }
 );
 layerId = UUID0;
@@ -6136,6 +6140,7 @@ width = 250;
 }
 );
 leftKerningGroup = KO_i;
+rightKerningGroup = dcaron;
 unicode = 013E;
 },
 {
@@ -7524,7 +7529,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2026-09-09 01:05:19 +0000";
+lastChange = "2026-11-06 14:29:14 +0000";
 layers = (
 {
 anchors = (
@@ -7542,7 +7547,7 @@ position = "{194, 624}";
 },
 {
 name = topright;
-position = "{368, 750}";
+position = "{278, 780}";
 }
 );
 layerId = UUID0;
@@ -7595,6 +7600,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
+lastChange = "2026-11-06 14:29:14 +0000";
 layers = (
 {
 components = (
@@ -7603,7 +7609,7 @@ name = t;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 366, 0}";
+transform = "{1, 0, 0, 1, 276, 30}";
 }
 );
 layerId = UUID0;
@@ -17459,7 +17465,7 @@ R = NoKerning;
 {
 color = 9;
 glyphname = caroncomb.alt;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:28:56 +0000";
 layers = (
 {
 anchors = (
@@ -17468,13 +17474,21 @@ name = _topright;
 position = "{2, 750}";
 }
 );
-components = (
+layerId = UUID0;
+paths = (
 {
-name = commaaccentcomb;
-transform = "{-1, 0, 0, -1, 172, 516}";
+closed = 1;
+nodes = (
+"152 579 OFFCURVE",
+"207 658 OFFCURVE",
+"215 712 CURVE SMOOTH",
+"222 755 LINE",
+"145 755 LINE",
+"82 564 LINE",
+"127 551 LINE"
+);
 }
 );
-layerId = UUID0;
 width = 160;
 }
 );
@@ -21506,6 +21520,11 @@ UUID0 = {
 "@MMK_R_KO_t.sc" = -8;
 "@MMK_R_KO_u.sc" = -15;
 "@MMK_R_KO_z" = -15;
+};
+"@MMK_L_dcaron" = {
+"@MMK_R_KO_h" = 100;
+"@MMK_R_KO_i" = 100;
+"@MMK_R_KO_k" = 100;
 };
 };
 };
