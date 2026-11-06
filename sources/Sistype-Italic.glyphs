@@ -3214,7 +3214,7 @@ unicode = 0218;
 },
 {
 glyphname = Germandbls;
-lastChange = "2026-09-10 19:45:58 +0000";
+lastChange = "2026-11-06 14:40:22 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -3222,43 +3222,43 @@ paths = (
 {
 closed = 1;
 nodes = (
-"375 300 OFFCURVE",
-"560 304 OFFCURVE",
-"560 155 CURVE SMOOTH",
-"560 35 OFFCURVE",
 "459 -13 OFFCURVE",
-"359 -13 CURVE SMOOTH",
-"314 -13 OFFCURVE",
-"252 -3 OFFCURVE",
-"211 12 CURVE",
-"224 72 LINE",
-"353 72 LINE SMOOTH",
-"395 72 OFFCURVE",
-"463 86 OFFCURVE",
-"463 148 CURVE SMOOTH",
-"463 249 OFFCURVE",
-"281 229 OFFCURVE",
-"281 367 CURVE SMOOTH",
-"281 461 OFFCURVE",
-"365 523 OFFCURVE",
-"463 604 CURVE",
-"462 610 LINE",
-"273 610 LINE",
-"163 97 LINE",
-"163 0 LINE",
-"68 0 LINE",
-"68 97 LINE",
-"196 700 LINE",
-"559 700 LINE",
-"573 585 LINE",
-"422 457 LINE SMOOTH",
-"393 432 OFFCURVE",
+"560 35 OFFCURVE",
+"560 155 CURVE SMOOTH",
+"560 304 OFFCURVE",
+"375 300 OFFCURVE",
+"375 375 CURVE SMOOTH",
 "375 405 OFFCURVE",
-"375 375 CURVE SMOOTH"
+"393 432 OFFCURVE",
+"422 457 CURVE SMOOTH",
+"573 585 LINE",
+"559 700 LINE",
+"196 700 LINE",
+"68 97 LINE",
+"68 0 LINE",
+"163 0 LINE",
+"163 97 LINE",
+"273 610 LINE",
+"462 610 LINE",
+"463 604 LINE",
+"365 523 OFFCURVE",
+"281 461 OFFCURVE",
+"281 367 CURVE SMOOTH",
+"281 229 OFFCURVE",
+"463 249 OFFCURVE",
+"463 148 CURVE SMOOTH",
+"463 86 OFFCURVE",
+"395 72 OFFCURVE",
+"353 72 CURVE SMOOTH",
+"224 72 LINE",
+"211 12 LINE",
+"252 -3 OFFCURVE",
+"314 -13 OFFCURVE",
+"359 -13 CURVE SMOOTH"
 );
 }
 );
-width = 554;
+width = 611;
 }
 );
 leftKerningGroup = KO_E;
@@ -16700,7 +16700,7 @@ unicode = 221E;
 },
 {
 glyphname = integral;
-lastChange = "2026-09-09 01:05:19 +0000";
+lastChange = "2026-11-06 14:40:34 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16715,7 +16715,7 @@ nodes = (
 "393 719 OFFCURVE",
 "336 719 CURVE",
 "160 -109 LINE",
-"28 -109 LINE",
+"26 -109 LINE",
 "26 -169 LINE",
 "64 -183 OFFCURVE",
 "159 -194 OFFCURVE",
@@ -17400,7 +17400,7 @@ R = NoKerning;
 },
 {
 glyphname = acutecomb;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:40:43 +0000";
 layers = (
 {
 anchors = (
@@ -17418,7 +17418,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"286 686 LINE",
+"287 686 LINE",
 "287 760 LINE",
 "242 760 LINE",
 "189 734 OFFCURVE",
@@ -18064,7 +18064,7 @@ R = NoKerning;
 },
 {
 glyphname = slashshortcomb;
-lastChange = "2026-09-10 19:53:49 +0000";
+lastChange = "2026-11-06 14:40:39 +0000";
 layers = (
 {
 anchors = (
@@ -18084,7 +18084,7 @@ nodes = (
 "346 409 OFFCURVE",
 "363 450 CURVE",
 "343 485 LINE",
-"241 426 LINE",
+"241 424 LINE",
 "134 424 LINE",
 "88 400 OFFCURVE",
 "36 365 OFFCURVE",
