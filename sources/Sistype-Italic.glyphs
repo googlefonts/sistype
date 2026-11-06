@@ -19,6 +19,11 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = fsType;
+value = (
+);
+},
+{
 name = trademark;
 value = "Sistype Italic is a trademark of Florencia Sisti.";
 }
