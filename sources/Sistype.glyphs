@@ -1,9 +1,8 @@
 {
 .appVersion = "3532";
 DisplayStrings = (
-"U+018F,/space U+FB02,/space U+FB01,/space U+0259\012\012/Schwa/fl/fi/schwa",
-"Á/AEacute/Cacute ÉÍ/Jacute/Lacute/Nacute Ó/Oslashacute/Racute/Sacute Ú/Wacute Ý/Zacute/lacute \012ÀÈÌÒÙ/Wgrave/Ygrave \012\012/gravecomb.case/acutecomb.case",
-"/gravecomb.case/acutecomb.case"
+"/schwa",
+"/fi/fl"
 );
 classes = (
 {
@@ -37,7 +36,7 @@ Tag = wght;
 );
 }
 );
-date = "2026-09-10 19:57:19 +0000";
+date = "2026-11-08 15:46:31 +0000";
 designer = "Florencia Sisti";
 designerURL = "http://www.fontanasisti.com";
 familyName = Sistype;
@@ -25561,7 +25560,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2026-11-06 14:30:21 +0000";
+lastChange = "2026-11-08 15:40:36 +0000";
 layers = (
 {
 components = (
@@ -25593,9 +25592,11 @@ width = 438;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = caroncomb.alt;
 transform = "{1, 0, 0, 1, 408, 0}";
 }
@@ -25607,9 +25608,11 @@ width = 418;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = t;
 },
 {
+alignment = -1;
 name = caroncomb.alt;
 transform = "{1, 0, 0, 1, 408, 0}";
 }
@@ -28198,7 +28201,7 @@ unicode = A78C;
 },
 {
 glyphname = fi;
-lastChange = "2026-11-06 14:38:43 +0000";
+lastChange = "2026-11-12 15:40:53 +0000";
 layers = (
 {
 anchors = (
@@ -28421,13 +28424,13 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2026-11-06 14:39:40 +0000";
+lastChange = "2026-11-12 15:40:53 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{333, 0}";
+position = "{331.5, 0}";
 }
 );
 layerId = UUID0;
