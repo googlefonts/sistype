@@ -19,6 +19,14 @@ value = (
 );
 },
 {
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+},
+{
+name = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
 name = trademark;
 value = "Sistype is a trademark of Florencia Sisti.";
 },
