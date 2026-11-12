@@ -1,48 +1,4 @@
-## Setting up your font
-
-### New repositories
-
-1. Hit the green button above ("Use this template") to create your own repository.
-
-2. Clone the repository, and replace the font sources in the `sources` directory with your own font sources. These sources may be either in Glyphs format or UFO/Designspace formats.\
-   \
-   Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped to the platform have to match the [Google Fonts Specifications](https://github.com/googlefonts/gf-docs/tree/main/Spec). Please read them carefully.\
-   \
-   _(The sample font provided in this template is [Radio Canada](https://github.com/googlefonts/radiocanadadisplay/) by Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers and contributors.)_
-
-3. Then reference the sources in the file `sources/config.yaml`, as well as making any other changes you would like to make based on the instructions in the [Google Fonts Builder documentation](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/builder/__init__.py).
-
-4. Add yourself to the `AUTHORS.txt` and `CONTRIBUTORS.txt` files.
-
-5. Fill out `documentation/ARTICLE.en_us.html` with a description of your font.
-
-6. Rewrite this Readme file according to the recommendations in the [Google Fonts Guide](https://googlefonts.github.io/gf-guide/readmefile.html).
-
-7. Add and commit these files to git.
-
-8. **At the command line, run `make customize` to ensure that all the paths and URLs in your project are correct**. This will also push your changes to GitHub.
-
-9. **Set up your GitHub pages site**: go to your repository's Settings > Pages and ensure that the Build and deployment "Source" drop-down is set to "GitHub Actions". (Any preexisting Actions jobs can be re-run to publish now, or the deployment triggered also manually from the Actions tab. Subsequent commits will publish the proofs and QA results automatically.)
-
-10. If GitHub Actions has successfully built the family, you will find the font binaries in the Actions tab. The official GitHub Actions documentation provides further [information](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts).
-
-### Updating a repository
-
-1. To update your font repository to bring in the latest best-practices from the Google Fonts Project Template, run `make update-project-template` from the command line. This requires the `node` Javascript engine to be installed; if you don't have that already, [follow these instructions](https://nodejs.org/en/download/package-manager#macos) to install on your platform.
-
-2. To update the Python build chain which builds your fonts, run `make update` and `git add`/`git commit` the new `requirements.txt`.
-
-## More things to do
-
-- `CustomFilter_GF_Latin_All.plist` in `sources` is practical if you use GlyphsApp, you can remove it otherwise. Placed in the same directory as the your `.glyphs` file, it will allow Glyphs to display a filter list for all GF Latin glyphsets in app. To make sure your font supports the minimal set required by Google Fonts, look at the `GF_Latin_Core` filter list. Find other glyphsets and list formats for different software in [GF Glyphsets repository](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets).
-
-- Once you are happy with your font, add promotional assets in the documentation directory. Make it different from the pic you use in this README. You can get inspired by existing @googlefonts posts as: https://x.com/googlefonts/status/1415562928657416192.
-
-- Google Fonts uses GitHub Releases to manage font families. If you feel your font project has hit a milestone, you must create a new release for it. In order to do this, go to the releases page and hit the "Draft a new release" button. You must provide a tag number and title which can only be a decimal number e.g. `0.100`, `1.000` etc. For the body text, mention what has changed since the last release. Once you are done, hit the "Publish release" button. Here is an example which fulfills the requirements, https://github.com/m4rc1e/test-ufr-family/releases/tag/2.019. For more info regarding GitHub release, please see the official GitHub Release [documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). **Please note that GitHub Actions must be able to build the fonts before you can make a release. Once you have made a release, the fonts and tests assets will be attached to the release automatically. This may take a while since the fonts and tests will be built from scratch so please be patient.**
-
----
-
-# My Font
+# Sistype
 
 [![][Fontspector]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
 [![][OpenType]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
@@ -57,16 +13,28 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOutlineCorrectnessChecks.json
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+Designed specifically for digital screens, Sistype takes into account the legacy of the pixel and the way letters are formed through light on a transparent medium. Unlike printed text, on-screen lettering is perceived through illuminated pixels and is often placed over images that are constantly changing. These conditions influence how individual characters are recognized and how words are read. Sistype responds to this environment through a set of deliberate formal and spacing decisions.
 
-Don't hesitate to create images!
+Sistype is a humanist sans serif typeface with a classical structure, open counters and medium stroke contrast. Its character is shaped by the relationship between its curves and the straight entry into the counters, a detail that gives the letterforms a distinctive visual identity while supporting clear recognition. The open internal spaces help preserve the definition of each glyph, while the measured contrast between strokes brings visual structure without making the forms overly delicate.
 
-![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
+Spacing is central to the typeface's approach to readability. Sistype uses generous letter spacing to help distinguish characters when subtitles appear against complex moving backgrounds. Changes in imagery, texture, brightness and contrast can interfere with the perception of letterforms, making text harder to follow. The wider spacing helps maintain separation between characters and supports a more continuous reading experience. It is not an incidental stylistic feature, but an integral part of the design response to the conditions of audiovisual reading.
+
+The family includes three styles: Regular, Bold and Italic. Together, they provide a compact typographic system that can accommodate different levels of emphasis and hierarchy within subtitles and other on-screen text. Each style maintains the visual coherence of the family while offering a distinct voice for different communication needs.
+
+Sistype approaches subtitles as an integral part of the audiovisual experience rather than as text simply placed over an image. Their role is to communicate spoken content while respecting the visual information unfolding behind them. The typeface seeks a balance between clarity and presence: subtitles should be easy to read, but should not compete unnecessarily with the moving image.
+
+The project is accompanied by a video tutorial for audiovisual professionals. It presents technical aspects of the typeface and offers practical guidance on the use of color to strengthen contrast and improve subtitle readability on screen. This resource extends the project beyond the design of the letterforms, connecting typographic decisions with their application in real audiovisual contexts.
+
+Selected for the 7ma Bienal Tipos Latinos in 2016, Sistype brings together typographic research and a practical response to a specific communication challenge. Its design considers the particular demands of reading on screen, where text and image share the same visual space.
+
+
+![Sample Image](documentation/GF_Sistype_01.jpg)
+![Sample Image](documentation/GF_Sistype_02.jpg)
+![Sample Image](documentation/GF_Sistype_03.jpg)
 
 ## About
 
-Description of you and/or organisation goes here.
+Florencia Sisti Michellod is an Argentine visual communication and type designer based in Buenos Aires, Argentina. She is co-founder of FONTANASISTI, an independent design studio working across branding, editorial design and visual communication. She holds a Master in Typography from the University of Buenos Aires (UBA). Her practice brings together typographic research and design, exploring how letterforms can respond to specific communication needs. Her typeface, Sistype, was selected for the 7ma Bienal Tipos Latinos. In 2026, she led the organization of the Buenos Aires (CABA) venue of the 10ma Bienal Tipos Latinos, coordinating its program, events and activities.
 
 ## Building
 
@@ -86,10 +54,9 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
 Changelog example:
 
-**26 May 2021. Version 2.13**
+**12 November 2026**
 
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+- First addition / QA for GF onboarding (Emma Marichal)
 
 ## License
 
